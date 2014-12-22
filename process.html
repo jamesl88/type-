@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Type+ | process</title>
+    <title>type+ | process</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -14,15 +14,15 @@
   </head>
   <body>
     <div class="col-xs-10 col-xs-offset-1">
-      <div class="title-logo">
-        <a href="http://type-architecture.co.uk/"><h1>type<span class="brand-color">+</span></h1></a>
-      </div>
-      <div id="navigation-links">
-        <ul>
-          <li><a href="http://type-architecture.co.uk/studio.html">studio</a></li>
-          <li><a href="http://type-architecture.co.uk/services.html">services</a></li>
-          <li><a class="brand-color" href="http://type-architecture.co.uk/process.html">process</a></li>
-        </ul>
+      <div class="col-xs-12 header">
+        <a href="http://type-architecture.co.uk/"><div class="title-logo"></div></a>
+        <div id="navigation-links">
+          <ul>
+            <li><a href="http://type-architecture.co.uk/studio.html">studio</a></li>
+            <li><a href="http://type-architecture.co.uk/services.html">services</a></li>
+            <li><a class="brand-color" href="http://type-architecture.co.uk/process.html">process</a></li>
+          </ul>
+        </div>
       </div>
 
       <div class="mid-space"></div>
@@ -30,16 +30,131 @@
         <div class="row">
           <div class="col-sm-4 content-description">
             <p>process</p>
-            <p>
-              free initial consultation<br>
-              survey<br>
-              options appraisal<br>
-              planning consent<br>
-              building regulations<br>
-              detail drawings<br>
-              on-site
-            </p>
+            <div id="accordion" role="tablist" aria-multiselectable="false">
+              <div>
+                <div class="bold" role="tab" id="headingOne">
+                  <p>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      free initial consultation
+                    </a>
+                  </p>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div>
+                    <p>
+                      We will visit you for an opening discussion to establish your requirements and view your property. As part of this conversation we will discuss the next steps with you, explaining the services we can provide and the likely costs involved. Following this initial discussion, the services included will be confirmed in writing as an itemised list of services for you to consider.
+                    </p>
+                  </div>
+                </div>
+              </div>  <!-- end accordian div -->
+
+              <div>
+                <div class="bold" role="tab" id="headingTwo">
+                  <p>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      survey
+                    </a>
+                  </p>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div>
+                    <p>
+                      Before we can develop design proposals it may be necessary to undertake a measured survey of the existing building and surrounding area. The scope of this survey is very much dependent on the project type and scale. We will advise what is appropriate for your project.
+                    </p>
+                  </div>
+                </div>
+              </div>  <!-- end accordian div -->
+
+              <div>
+                <div class="bold" role="tab" id="headingThree">
+                  <p>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      options appraisal
+                    </a>
+                  </p>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div>
+                    <p>
+                      We will develop a brief to ensure your exact requirements are met, identify any site constraints, and prepare initial layout design options for discussion. We welcome your comments at this stage to ensure that we are creating the most appropriate design for you. This may include submitting a pre-planning enquiry, or investigating the possibility of proceeding under permitted development.
+                    </p>
+                  </div>
+                </div>
+              </div>  <!-- end accordian div -->
+
+              <div>
+                <div class="bold" role="tab" id="headingFour">
+                  <p>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      planning consent
+                    </a>
+                  </p>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div>
+                    <p>
+                      Through further discussions, we will develop the scheme design. We will maintain a dialogue with the planning authority to ensure any potential planning issues are identified early. Once the scheme design has been finalised we will consult your neighbours prior to submitting drawings and relevant information to the local planning authority.
+                    </p>
+                  </div>
+                </div>
+              </div>  <!-- end accordian div -->
+
+              <div>
+                <div class="bold" role="tab" id="headingFive">
+                  <p>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      building regulations
+                    </a>
+                  </p>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div>
+                    <p>
+                      Following planning consent, drawings will be updated to show the relevant information required to comply with the Building Regulation requirements. The services of a Structural Engineer may be required to provide structural calculations. Information is then submitted to a Building Regulation Inspector for approval.
+                    </p>
+                  </div>
+                </div>
+              </div>  <!-- end accordian div -->
+
+              <div>
+                <div class="bold" role="tab" id="headingSix">
+                  <p>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      detail drawings
+                    </a>
+                  </p>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                  <div>
+                    <p>
+                      Additional information, such as details, materials and schedules are then produced for construction. The amount of information required on drawings depends on the type and scale of the project. Generally, the more detailed information included before employing a builder and starting on site, the more control you will have over the final result. Type+ architects offer different levels of service and will advise what is appropriate for each specific project.
+                    </p>
+                  </div>
+                </div>
+              </div>  <!-- end accordian div -->
+
+              <div>
+                <div class="bold" role="tab" id="headingSeven">
+                  <p>
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      on-site
+                    </a>
+                  </p>
+                </div>
+                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                  <div>
+                    <p>
+                      We are able to administer the building contract on your behalf and will be available to answer any queries during construction. We will also visit the site at key construction stages to check on progress. We are happy to discuss the different levels of services during this stage.
+                    </p>
+                  </div>
+                </div>
+              </div>  <!-- end accordian div -->
+
+
+
+            </div> <!-- end div -->
           </div>
+
           <div class="col-sm-1"></div>
           <div class="col-sm-7">
             <div class="image"></div>
@@ -50,10 +165,10 @@
       <div class="col-xs-12">
         <div id="footer">
           <ul class="social-links">
-            <a href="#" class="social-button fa fa-google-plus-square"></a>
-            <a href="#" class="social-button fa fa-facebook-square"></a>
-            <a href="#" class="social-button fa fa-twitter-square"></a>
-            <a href="#" class="social-button fa fa-linkedin-square"></a>
+            <a href="#" class="social-button googleplus fa fa-google-plus-square"></a>
+            <a href="#" class="social-button facebook fa fa-facebook-square"></a>
+            <a href="#" class="social-button twit fa fa-twitter-square"></a>
+            <a href="#" class="social-button linked fa fa-linkedin-square"></a>
           </ul>
         </div>
      </div>
@@ -62,5 +177,11 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      /* ensure any open panels are closed before showing selected */
+      $('#accordion').on('show.bs.collapse', function () {
+          $('#accordion .in').collapse('hide');
+      });0
+    </script>
   </body>
 </html>

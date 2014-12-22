@@ -3,10 +3,11 @@ img {
   width: 100%;
   display: block;
   max-width: 100%;
+  max-height: 500px;
 }
 
 a {
-  color:#333;
+  color:#585858;
 }
 
 a:hover {
@@ -18,7 +19,7 @@ body {
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   font-size: 1.3em;
-  color: #333;
+  color: #585858;
   height:100%;
 }
 
@@ -31,6 +32,10 @@ li {
   float: left;
   list-style: none;
   margin-right: 10px; 
+}
+
+.bold {
+  font-weight: 400;
 }
 
 .brand-color {
@@ -53,11 +58,18 @@ li {
   width:100%;
 }
 
+.header {
+  margin: 65px 0 10px;
+  padding-left: 0;
+}
+
 #home-image {
   margin: 20px auto;
-  width: 800px;
+  /*max-width: 100%;*/
   height: 529px;
   background-size: 800px 529px;
+  background-repeat: no-repeat;
+  background-position: center; 
   background-image: url("../images/OR01_Facade.jpg");
 }
 
@@ -83,8 +95,24 @@ li {
 }
 
 .social-links a {
-  margin-left: 5px; 
-  margin-right: 0px; 
+  margin-right: 5px; 
+  float: left;
+}
+
+.social-links a.googleplus:hover {
+  color: #DC4335;
+}
+
+.social-links a.facebook:hover {
+  color: #314A7E;
+}
+
+.social-links a.twit:hover {
+  color: #34CCFE;
+}
+
+.social-links a.linked:hover {
+  color: #007BB6;
 }
 
 .social-button {
@@ -93,23 +121,13 @@ li {
   color: #a0a1a2;
 }
 
-.social-button a {
-  color: #fff;
-}
-
 .title-logo {
-  margin-bottom: 15px;
-}
-
-.title-logo h1 {
-  margin-top: 50px;
-  color: #666;
-  letter-spacing: 1px;
-}
-
-.title-logo span {
-  font-family: "Helvetica light";
-  padding-left: 2px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 35px;
+  background-image: url("../images/type-logo.png");
+  background-repeat: no-repeat;
+  background-size: 100%
 }
 
 #under-construction {
