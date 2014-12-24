@@ -10,6 +10,12 @@ a {
   color:#585858;
 }
 
+a:link
+{  
+  text-decoration: none;
+  color:#585858;
+}
+
 a:hover {
   color: #ecd901;
   text-decoration: none;
@@ -45,7 +51,6 @@ li {
 .container {
   margin: 30px 50px;
   min-height:100%;
-  position:relative;
 }
 
 .content {
@@ -59,14 +64,13 @@ li {
 }
 
 .header {
-  margin: 65px 0 10px;
+  margin: 50px 0 10px;
   padding-left: 0;
 }
 
 #home-image {
-  margin: 20px auto;
-  /*max-width: 100%;*/
-  height: 529px;
+  margin: 0 auto;
+  height: 500px;
   background-size: 800px 529px;
   background-repeat: no-repeat;
   background-position: center; 
@@ -86,6 +90,17 @@ li {
 
 #navigation-links {
   font-size: 1.1em;
+}
+
+.project {
+  padding-left: 0;
+}
+
+.project-image {
+  margin: 15px 0;
+  width: 100%;
+  height:200px;
+  background-color: grey;
 }
 
 .social-links {
